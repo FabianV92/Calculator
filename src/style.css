@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    font-family: sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-rows: repeat(10, 10vh);
+    grid-template-columns: repeat(15, 10vw);
+}
+
+.calcbox {
+    grid-row-start: 2;
+    grid-row-end: 10;
+    grid-column-start: 4;
+    grid-column-end: 8;
+    background-color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.resultDisplay {
+    grid-row-start: 3;
+    grid-column-start: 4;
+    grid-column-end: 8;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.ac {
+    grid-row-start: 4;
+    grid-column-start: 4;
+}
+
+.minusOrPlus {
+    grid-row-start: 4;
+    grid-column-start: 5;
+}
+
+.modulo {
+    grid-row-start: 4;
+    grid-column-start: 6;
+}
+
+.divide {
+    grid-row-start: 4;
+    grid-column-start: 7;
+}
+
+.seven {
+    grid-row-start: 5;
+    grid-column-start: 4;
+}
+
+.eight {
+    grid-row-start: 5;
+    grid-column-start: 5;
+}
+
+.nine {
+    grid-row-start: 5;
+    grid-column-start: 6;
+}
+
+.multiply {
+    grid-row-start: 5;
+    grid-column-start: 7;
+}
+
+.four {
+    grid-row-start: 6;
+    grid-column-start: 4;
+}
+
+.five {
+    grid-row-start: 6;
+    grid-column-start: 5;
+}
+
+.six {
+    grid-row-start: 6;
+    grid-column-start: 6;
+}
+
+.minus {
+    grid-row-start: 6;
+    grid-column-start: 7;
+}
+
+.one {
+    grid-row-start: 7;
+    grid-column-start: 4;
+}
+
+.two {
+    grid-row-start: 7;
+    grid-column-start: 5;
+}
+
+.three {
+    grid-row-start: 7;
+    grid-column-start: 6;
+}
+
+.addition {
+    grid-row-start: 7;
+    grid-column-start: 7;
+}
+
+.zero {
+    grid-row-start: 8;
+    grid-column-start: 4;
+}
+
+.zeroClass {
+    grid-row-start: 8;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    background-color: #333333;
+    align-self: center;
+    height: 40px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-left: 12px;
+    margin-right: 33px;
+}
+
+.dot {
+    grid-row-start: 8;
+    grid-column-start: 6;
+}
+
+.equals {
+    grid-row-start: 8;
+    grid-column-start: 7;
+}
+
+
+.ac,
+.minusOrPlus,
+.modulo,
+.divide,
+.seven,
+.eight,
+.nine,
+.multiply,
+.four,
+.five,
+.six,
+.minus,
+.one,
+.two,
+.three,
+.dot,
+.zero,
+.addition,
+.equals {
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+    align-self: center;
+    height: 40px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 40px;
+    margin: 10px;
+
+}
+
+p {
+    align-items: center;
+    color: #ffff;
+}
+
+p:hover {
+    cursor: pointer;
+}
+
+.divide,
+.multiply,
+.minus,
+.addition,
+.equals {
+    background-color: #fe9f0a;
+}
+
+.minusOrPlus,
+.ac,
+.modulo {
+    color: #000000;
+    background-color: #a5a5a5;
+}
+
+label {
+    grid-row-start: 9;
+    grid-column-start: 4;
+    grid-column-end: 8;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.inputBox {
+    width: 90%;
+    background-color: black;
+    border: 1px solid #fe9f0a;
+    border-radius: 3px;
+    color: white;
+    padding: 2px;
+}
