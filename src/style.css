@@ -17,27 +17,29 @@ body {
     grid-column-start: 4;
     grid-column-end: 8;
     background-color: white;
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
     display: flex;
     justify-content: space-around;
     padding-top: 5px;
     color: white;
     background-color: black;
-    border: 1px solid white;
+    border: 2px solid white;
+    border-radius: 20px;
 }
 
 .resultDisplay {
-    grid-row-start: 3;
+    grid-row-start: 2;
+    grid-row-end: 4;
     grid-column-start: 4;
     grid-column-end: 8;
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
     border-left: 1px solid white;
     border-right: 1px solid white;
+    border: 2px solid white;
+    margin: 10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .ac {
@@ -123,6 +125,7 @@ body {
 .zero {
     grid-row-start: 8;
     grid-column-start: 4;
+    grid-column-end: 6;
 }
 
 .zeroClass {
@@ -131,13 +134,7 @@ body {
     grid-column-end: 6;
     background-color: #333333;
     align-self: center;
-    height: 40px;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-top-left-radius: 25px;
-    border-bottom-left-radius: 25px;
-    margin-left: 12px;
-    margin-right: 33px;
+
 }
 
 .dot {
@@ -172,15 +169,9 @@ body {
 .equals {
     display: flex;
     justify-content: center;
+    border: 2px solid white;
+    margin: 5px;
     background-color: #333333;
-    align-self: center;
-    height: 40px;
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    width: 40px;
-    margin: 10px;
-
 }
 
 p {
@@ -207,22 +198,22 @@ p:hover {
     background-color: #a5a5a5;
 }
 
-label {
+.inputBox {
     grid-row-start: 9;
     grid-column-start: 4;
     grid-column-end: 8;
-    display: flex;
-    justify-content: center;
-    align-self: center;
-    border-right: 1px solid white;
-    border-left: 1px solid white;
-}
-
-.inputBox {
-    width: 90%;
     background-color: black;
-    border: 1px solid #fe9f0a;
+    border: 2px solid white;
     border-radius: 3px;
     color: white;
     padding: 2px;
+    align-self: center;
+    width: 90%;
+    justify-self: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    text-align: center;
+    outline: none;
+    height: 70%;
+    font-size: 15px;
 }
