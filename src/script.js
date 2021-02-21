@@ -81,7 +81,7 @@ dotEl.addEventListener("click", function () {
 
 // Clearing display method
 acEl.addEventListener("click", function () {
-    resultScreen.textContent = "Use me for calculation";
+    resultScreen.textContent = "";
     inputContainer = "";
     transferToContainer();
 })

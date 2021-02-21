@@ -21,7 +21,7 @@ body {
     justify-content: space-around;
     padding-top: 5px;
     color: white;
-    background-color: black;
+    background-color: rgb(25,30,30);
     border: 2px solid white;
     border-radius: 20px;
 }
@@ -34,12 +34,10 @@ body {
     font-size: 30px;
     display: flex;
     justify-content: center;
-    border-left: 1px solid white;
-    border-right: 1px solid white;
-    border: 2px solid white;
-    margin: 10px;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
+    border: 2px solid #fff;
+    background-color: rgb(25,30,30);
 }
 
 .ac {
@@ -202,7 +200,7 @@ p:hover {
     grid-row-start: 9;
     grid-column-start: 4;
     grid-column-end: 8;
-    background-color: black;
+    background-color: rgb(25,30,30);
     border: 2px solid white;
     border-radius: 3px;
     color: white;
@@ -216,4 +214,8 @@ p:hover {
     outline: none;
     height: 70%;
     font-size: 15px;
+}
+.inputBox::placeholder {
+    opacity: 1;
+    color: #ffff;
 }
